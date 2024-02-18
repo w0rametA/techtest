@@ -8,19 +8,19 @@
 // Input: [12, 17, 14, 11, 19, 8], Target: 30 Output: false.
 // Evaluation Criteria: Efficient search algorithms, possibly the use of hash maps (objects in JavaScript) for quicker lookup, and understanding of array operations.
 
-// const sumOfTwoInArr = (arr, num) => {
-//     const target = num
-//     for(let i = 0; i < arr.length ; i++){
-//         const firstNum = arr[i]
-//         for(let j = i+1 ; j < arr.length ; j++ ){
-//             const secondNum = arr[j]
-//             const result = firstNum + secondNum
-//             if(target === result)return true
-//             else return false
-//         }
+// const sumOfTwoinArr = (arr, num ) => {
+//     const target = num 
+//     let firstNum
+//     let secondNum
+//     for(let i = 0; i <= arr.length ; i++){
+//       firstNum = arr[i]
+//       for(let j = i+1 ; j < arr.length; j++){
+//         secondNum = arr[j]
+//         if(firstNum + secondNum === target) return true
+//       }
 //     }
-// }
-
+//     return false
+//   }
 // console.log(sumOfTwoInArr([1, 3, 5, 7, 16, 4], 4))
 
 // Custom Sort Function (Easy)
